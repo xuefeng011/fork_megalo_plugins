@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "@megalo/template-compiler@0.8.0",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_development": true,
+  "_from": "@megalo/template-compiler@0.8.0",
+  "_id": "@megalo/template-compiler@0.8.0",
+  "_inBundle": false,
+  "_integrity": "sha512-tfbdkz46RCryC+zMsPS3nm4OccvGlfh4KP+z/ghD3cYaDnuzMsLfDlD5JDX5IUTzjYDybCuCjRP229b7vbIp1w==",
+  "_location": "/@megalo/template-compiler",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@megalo/template-compiler@0.8.0",
+    "name": "@megalo/template-compiler",
+    "escapedName": "@megalo%2ftemplate-compiler",
+    "scope": "@megalo",
+    "rawSpec": "0.8.0",
+    "saveSpec": null,
+    "fetchSpec": "0.8.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "/@megalo/target"
+  ],
+  "_resolved": "https://registry.npmjs.org/@megalo/template-compiler/-/template-compiler-0.8.0.tgz",
+  "_spec": "0.8.0",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": {
+    "name": "kaola-fed"
+  },
+  "bugs": {
+    "url": "https://github.com/kaola-fed/megalo/issues"
+  },
+  "dependencies": {
+    "de-indent": "^1.0.2",
+    "he": "^1.1.0"
+  },
+  "description": "megalo template compiler for Vue",
+  "homepage": "https://github.com/kaola-fed/megalo/",
+  "keywords": [
+    "vue",
+    "compiler",
+    "mp",
+    "mp",
+    "antmp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@megalo/template-compiler",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaola-fed/megalo.git"
+  },
+  "version": "0.8.0"
+}

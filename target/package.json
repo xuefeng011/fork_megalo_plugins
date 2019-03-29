@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      "@megalo/target@0.6.3",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_development": true,
+  "_from": "@megalo/target@0.6.3",
+  "_id": "@megalo/target@0.6.3",
+  "_inBundle": false,
+  "_integrity": "sha512-bMc28LAaxyISaRFrfsPI3BdtkY1+cqEJA6t06mJgsSABj3I+fid1iYPUYfb+eCyt+rk0+NiN6mmDkiALsWadRw==",
+  "_location": "/@megalo/target",
+  "_phantomChildren": {
+    "ansi-styles": "3.2.1",
+    "consolidate": "0.15.1",
+    "escape-string-regexp": "1.0.5",
+    "has-flag": "3.0.0",
+    "hash-sum": "1.0.2",
+    "merge-source-map": "1.1.0",
+    "postcss-selector-parser": "5.0.0",
+    "pseudomap": "1.0.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@megalo/target@0.6.3",
+    "name": "@megalo/target",
+    "escapedName": "@megalo%2ftarget",
+    "scope": "@megalo",
+    "rawSpec": "0.6.3",
+    "saveSpec": null,
+    "fetchSpec": "0.6.3"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@megalo/target/-/target-0.6.3.tgz",
+  "_spec": "0.6.3",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": "",
+  "dependencies": {
+    "@megalo/regular-template-compiler": "^0.3.0",
+    "@megalo/template-compiler": "*",
+    "@vue/component-compiler-utils": "^2.5.0",
+    "babel-generator": "^6.26.1",
+    "babelon": "^1.0.5",
+    "copy-webpack-plugin": "^4.5.2",
+    "hash-sum": "^1.0.2",
+    "js-yaml": "^3.12.0",
+    "json5": "^2.1.0",
+    "loader-utils": "^1.1.0",
+    "lodash.merge": "^4.6.1",
+    "postcss": "^7.0.2",
+    "postcss-selector-parser": "^5.0.0-rc.3",
+    "querystring": "^0.2.0",
+    "semver": "^5.6.0"
+  },
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "@megalo/target",
+  "peerDependencies": {
+    "vue-loader": "15.4.0",
+    "webpack": "^4.16.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaola-fed/megalo-aot/tree/master/packages/target"
+  },
+  "scripts": {},
+  "version": "0.6.3"
+}

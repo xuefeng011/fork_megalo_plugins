@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "@megalo/entry@0.1.1",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_development": true,
+  "_from": "@megalo/entry@0.1.1",
+  "_id": "@megalo/entry@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-a6HnThHq5+uCE+46cZAEPlbVXgbhPt96teWWwijgReGwWSphyjYmQP5wNcews5G8M4pODx+VaTkmmqT2Vxq5TA==",
+  "_location": "/@megalo/entry",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@megalo/entry@0.1.1",
+    "name": "@megalo/entry",
+    "escapedName": "@megalo%2fentry",
+    "scope": "@megalo",
+    "rawSpec": "0.1.1",
+    "saveSpec": null,
+    "fetchSpec": "0.1.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@megalo/entry/-/entry-0.1.1.tgz",
+  "_spec": "0.1.1",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": {
+    "name": "zwwill",
+    "email": "https://github.com/zwwill"
+  },
+  "bugs": {
+    "url": "https://github.com/megalojs/megalo-entry/issues"
+  },
+  "dependencies": {
+    "json5": "^2.1.0"
+  },
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/megalojs/megalo-entry#readme",
+  "keywords": [
+    "megalo"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "name": "@megalo/entry",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megalojs/megalo-entry.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.1"
+}

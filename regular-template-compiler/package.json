@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      "@megalo/regular-template-compiler@0.3.0",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_development": true,
+  "_from": "@megalo/regular-template-compiler@0.3.0",
+  "_id": "@megalo/regular-template-compiler@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha512-cjuDNCf3qqSW5p+pY1N44jOHW251wC+HU78I8V3QUCw49PX9Mz/9x2WV3pZ8mAC7KglsBAdsq0w4zRYvXiuBHA==",
+  "_location": "/@megalo/regular-template-compiler",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@megalo/regular-template-compiler@0.3.0",
+    "name": "@megalo/regular-template-compiler",
+    "escapedName": "@megalo%2fregular-template-compiler",
+    "scope": "@megalo",
+    "rawSpec": "0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "0.3.0"
+  },
+  "_requiredBy": [
+    "/@megalo/target"
+  ],
+  "_resolved": "https://registry.npmjs.org/@megalo/regular-template-compiler/-/regular-template-compiler-0.3.0.tgz",
+  "_spec": "0.3.0",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": "",
+  "dependencies": {
+    "html-minifier": "^3.5.21",
+    "loader-utils": "^1.1.0",
+    "lodash.clonedeep": "^4.5.0",
+    "nanoid": "^1.0.2",
+    "prettier": "^1.13.4",
+    "regularjs": "^0.6.0",
+    "vue-template-compiler": "2.5.17"
+  },
+  "description": "",
+  "devDependencies": {},
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@megalo/regular-template-compiler",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaola-fed/megalo-aot/tree/master/packages/regular-template-compiler"
+  },
+  "scripts": {},
+  "version": "0.3.0"
+}

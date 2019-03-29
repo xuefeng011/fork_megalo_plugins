@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      "@megalo/vhtml-plugin@0.1.2",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_from": "@megalo/vhtml-plugin@0.1.2",
+  "_id": "@megalo/vhtml-plugin@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-RnWoE/2PUjsXLV3EQL1A4JyoZ+Ac+yIekI70w0fp7eaeDcqE9XViPTnaZhBFgFcAttKHaAR9AP4C7gM29aMLGQ==",
+  "_location": "/@megalo/vhtml-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@megalo/vhtml-plugin@0.1.2",
+    "name": "@megalo/vhtml-plugin",
+    "escapedName": "@megalo%2fvhtml-plugin",
+    "scope": "@megalo",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@megalo/vhtml-plugin/-/vhtml-plugin-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": {
+    "name": "kaola-fed"
+  },
+  "bugs": {
+    "url": "https://github.com/kaola-fed/megalo-vhtml-plugin/issues"
+  },
+  "description": "vhtml plugin for megalo",
+  "homepage": "https://github.com/kaola-fed/megalo-vhtml-plugin#readme",
+  "keywords": [
+    "megalo",
+    "vue",
+    "miniprogram"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@megalo/vhtml-plugin",
+  "peerDependencies": {
+    "octoparse": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaola-fed/megalo-vhtml-plugin.git"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "version": "0.1.2"
+}

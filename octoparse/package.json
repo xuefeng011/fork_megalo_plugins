@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "octoparse@0.3.2",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_from": "octoparse@0.3.2",
+  "_id": "octoparse@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-LBx0YU+vE8rbyOrAzCT5ssWcRFYLN5w1gT0Z1VjmbwC9WfxeTCnGW8pcZr0yUP9eIOC15CvqRjYtnytN91m0vQ==",
+  "_location": "/octoparse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "octoparse@0.3.2",
+    "name": "octoparse",
+    "escapedName": "octoparse",
+    "rawSpec": "0.3.2",
+    "saveSpec": null,
+    "fetchSpec": "0.3.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/octoparse/-/octoparse-0.3.2.tgz",
+  "_spec": "0.3.2",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": {
+    "name": "kaola-fed"
+  },
+  "bugs": {
+    "url": "https://github.com/kaola-fed/octoparse/issues"
+  },
+  "dependencies": {},
+  "description": "octoParse-小程序富文本解析自定义组件",
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "gulp": "^4.0.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "homepage": "https://github.com/kaola-fed/octoparse",
+  "keywords": [
+    "html",
+    "weapp",
+    "weixin"
+  ],
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "name": "octoparse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaola-fed/octoparse.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib --plugins=babel-plugin-add-module-exports && gulp copyTemplate",
+    "dev": "gulp dev",
+    "tasks": "gulp --tasks",
+    "test": "jest"
+  },
+  "version": "0.3.2"
+}

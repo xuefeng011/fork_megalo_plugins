@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "@megalo/env-plugin@git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+      "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo"
+    ]
+  ],
+  "_development": true,
+  "_from": "@megalo/env-plugin@git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+  "_id": "@megalo/env-plugin@1.0.1",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@megalo/env-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "@megalo/env-plugin@git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+    "name": "@megalo/env-plugin",
+    "escapedName": "@megalo%2fenv-plugin",
+    "scope": "@megalo",
+    "rawSpec": "git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+    "saveSpec": "git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+    "fetchSpec": "https://github.com/megalojs/megalo-env-plugin.git",
+    "gitCommittish": "b0dc6bbfe0042752b82f6e52100c798cc1246515"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+  "_spec": "git+https://github.com/megalojs/megalo-env-plugin.git#b0dc6bbfe0042752b82f6e52100c798cc1246515",
+  "_where": "D:\\GIT\\WEIXIN\\MEGALO\\megalo-demo",
+  "author": {
+    "name": "running@vip.163.com"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": [
+      "transform-object-assign",
+      "transform-class-properties"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/megalojs/megalojs-env-plugin/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "webpack": "^4.27.1"
+  },
+  "description": "为megalo-cli创建的工程提供模式",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "standard": "^12.0.1"
+  },
+  "homepage": "https://github.com/megalojs/megalojs-env-plugin#readme",
+  "keywords": [
+    "env",
+    "environment",
+    "process.env",
+    "webpack",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@megalo/env-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megalojs/megalojs-env-plugin.git"
+  },
+  "scripts": {
+    "build": "babel --copy-files --out-dir dist src",
+    "lint": "standard \"src/**/*.js\" --fix",
+    "precommit": "npm run lint",
+    "test": "node ./test --mode customer --platform swan"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "version": "1.0.1"
+}
